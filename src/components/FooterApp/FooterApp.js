@@ -5,6 +5,7 @@ import { MdOutlineCategory } from "react-icons/md";
 import { MdOutlineLocalOffer } from "react-icons/md";
 import { CiUser } from "react-icons/ci";
 import { BtnLink } from "../Common";
+import React from 'react';
 
 export function FooterApp() {
   return (

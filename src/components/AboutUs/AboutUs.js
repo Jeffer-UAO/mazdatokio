@@ -1,4 +1,5 @@
 import styles from "./AboutUs.module.scss";
+import React from 'react';
 
 export function AboutUs() {
   return (

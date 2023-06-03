@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "babel-plugin-transform-remove-console": "^6.9.4",
     "bootstrap": "^5.2.3",
     "classnames": "^2.3.2",
     "formik": "^2.2.9",
@@ -18,14 +19,21 @@
     "next-boost": "^0.12.0",
     "next-compose-plugins": "^2.2.1",
     "next-images": "^1.8.5",
+    "next-optimized-images": "^2.6.2",
+    "next-transpile-modules": "^10.0.0",
     "nextjs-progressbar": "^0.0.16",
-    "react": "18.2.0",
+    "react": "^18.2.0",
     "react-dom": "18.2.0",
     "react-dropzone": "^14.2.3",
     "react-icons": "^4.8.0",
     "react-toastify": "^9.1.2",
     "reactstrap": "^9.1.9",
     "sass": "^1.62.0",
+    "terser-webpack-plugin": "^5.3.9",
     "yup": "^1.1.1"
+  },
+  "devDependencies": {
+    "esbuild": "^0.17.19",
+    "esbuild-loader": "^3.0.1"
   }
 }

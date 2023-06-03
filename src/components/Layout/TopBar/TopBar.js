@@ -1,6 +1,7 @@
 import styles from "./TopBar.module.scss";
 import { CardImg } from "reactstrap";
 import Link from "next/link";
+import React from 'react';
 
 export function TopBar() {
   return (

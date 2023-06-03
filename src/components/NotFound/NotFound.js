@@ -1,5 +1,6 @@
 import styles from "./NotFound.module.scss";
 import { SiNotepadplusplus } from "react-icons/si";
+import React from 'react';
 
 export function NotFound(props) {
   const {title} = props;

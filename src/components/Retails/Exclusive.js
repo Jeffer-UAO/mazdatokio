@@ -3,6 +3,7 @@ import { CardImg, CardTitle } from "reactstrap";
 import { BASE_NAME } from "@/config/constants";
 import styles from "./Retail.module.scss";
 import { map } from "lodash";
+import React from 'react';
 
 export function Exclusive(props) {
   const { products } = props;

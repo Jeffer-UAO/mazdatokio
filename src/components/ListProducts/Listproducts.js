@@ -2,6 +2,7 @@ import { CardImg, CardSubtitle, CardTitle } from "reactstrap";
 import { map } from "lodash";
 import { BASE_NAME } from "@/config/constants";
 import { WhatsApp } from "../WhatsApp";
+import React from 'react';
 
 import styles from "./ListProduts.module.scss";
 import Link from "next/link";

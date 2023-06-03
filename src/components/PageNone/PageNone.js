@@ -1,5 +1,6 @@
 import styles from "./NotFound.module.scss";
 import { MdOutlineConstruction } from "react-icons/md";
+import React from 'react';
 
 export function PageNone(props) {
   const {title} = props;

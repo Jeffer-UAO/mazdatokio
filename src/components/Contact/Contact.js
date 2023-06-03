@@ -1,5 +1,6 @@
 import styles from "./Contact.module.scss";
 import { FooterApp } from "../FooterApp";
+import React from 'react';
 
 export function Contact() {
   return (

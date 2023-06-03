@@ -1,6 +1,7 @@
 import { CardImg, CardTitle } from "reactstrap";
 import { map } from "lodash";
 import { BASE_NAME } from "@/config/constants";
+import React from 'react';
 
 import styles from "./ListCategories.module.scss";
 import Link from "next/link";
