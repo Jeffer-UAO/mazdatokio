@@ -1,14 +1,21 @@
-const esbuildConfig = require('./esbuild.config');
+// const withPlugins = require('next-compose-plugins');
+// const withNextBoost = require('next-boost');
+// const withImages = require('next-images');
 
-module.exports = {
-  // Resto de la configuración de Next.js
+// module.exports = withPlugins([
+//   [withNextBoost],
+//   [withImages],
+// ], {
+//   reactStrictMode: true,
+//   // Otras configuraciones de Next.js aquí...
+// });
 
-  webpack: (config, options) => {
-    if (!options.isServer) {
-      // Utiliza la configuración de esbuild
-      config = esbuildConfig.webpack(config, options);
-    }
 
-    return config;
-  },
-};
+/**
+ * @type {import('next').NextConfig}
+ */
+const nextConfig = {
+  /* config options here */
+}
+
+module.exports = nextConfig
